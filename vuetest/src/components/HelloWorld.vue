@@ -1,8 +1,10 @@
 <template>
-  <div class="hello">
+  <div id="hello">
     <h1>{{ msg }}</h1>
+    <!-- <input v-model="msg"> -->
   </div>
 </template>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
 
 <script>
 export default {
